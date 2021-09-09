@@ -1,0 +1,249 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .top-header{
+        display: none;
+    }
+    /* header start */
+
+    .header-social ul{
+        padding: 0;
+    }
+    /* header end */
+    .banner-text h1 {
+        margin-top: 20px;
+        color: black;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 49px;
+        margin-bottom: 30px;
+    }
+      /* banner area start */
+      .banner-text{
+        text-align: center;
+        padding-top:60px;
+        padding-bottom:60px;
+      }
+    /* banner area  end */
+     /* popular start */
+     .popular-single{
+        margin-bottom: 20px;
+    }
+    /* popular end */
+      /* single service start */
+      .single-service{
+        margin-bottom: 20px;
+    }
+    /* single service end */
+      /* post area start */
+      .single-post{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* post area end */
+/* follow area start */
+.single-follow{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* follow area end */
+   
+/* footer area start */
+.header-top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  
+}
+/* footer area end */
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .top-header{
+        display: none;
+    }
+    /* header start */
+
+    .header-social ul{
+        padding: 0;
+    }
+    /* header end */
+    /* banner area start */
+    .banner-text{
+        text-align: center;
+        padding-top:60px;
+        padding-bottom:60px;
+      }
+
+      .banner-text h1 {
+        margin-top: 40px;
+        color: black;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 8px;
+        margin-bottom: 45px;
+    }
+    
+    /* banner area  end */
+     /* offer-area start */
+     .offer-area {             
+        padding: 50px 0;
+    }
+      .offer-text{
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+    .offer-text h1 {
+        font-size: 44px;
+        margin-bottom: 10px;       
+    }
+    .offer-text h4 {      
+        margin-bottom: 18px;        
+        font-size: 18px;
+    }
+    .offer-text button {
+        padding: 10px 35px;    
+       
+    }
+    /* offer-area end */
+     /* popular start */
+     .popular-single{
+        margin-bottom: 20px;
+    }
+    /* popular end */
+      /* single service start */
+      .single-service{       
+        margin-bottom: 20px;
+    }
+    /* single service end */
+    /* post area start */
+    .single-post{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* post area end */
+ /* follow area start */
+ .single-follow{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* follow area end */
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+
+    .header-social ul{
+        padding: 0;
+    }
+    /* header end */
+    /* banner area start */
+    .banner-text{
+        text-align: center;
+        padding-top:80px;
+        padding-bottom:80px;
+      }
+      .banner-text h1 {
+        margin-top: 40px;
+        color: black;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 8px;
+        margin-bottom: 45px;
+
+
+    }
+    
+       
+    /* banner area  end */
+      /* offer-area start */
+      .offer-area {             
+        padding: 50px 0;
+    }
+      .offer-text{
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+    .offer-text h1 {
+        font-size: 44px;
+        margin-bottom: 10px;       
+    }
+    .offer-text h4 {      
+        margin-bottom: 18px;        
+        font-size: 18px;
+    }
+    .offer-text button {
+        padding: 10px 35px;    
+       
+    }
+    /* offer-area end */
+    /* popular start */
+    .popular-single{
+        margin-bottom: 20px;
+    }
+    /* popular end */
+    /* single service start */
+    .single-service{
+        margin-bottom: 20px;
+    }
+    /* single service end */
+    /*post area start  */
+    .post-content h2 {        
+        line-height: 30px;
+    }
+    .category-content span {
+        margin-right: 84px;
+    }
+    /*post area end  */
+    .list-inline-item:not(:last-child) {
+        margin-right:0;
+    }
+    /* footer area start */
+    .f-last-btn {
+       display: inline-block;
+    }
+    .android {
+        margin-top: 10px;    
+         margin-left: 0;
+        
+    }
+    /* footer area end */
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* header start */
+    .header-social ul li {
+        margin-right: 20px !important;
+    }
+    .cnav {
+        padding-right: 30px;
+    }
+    /* header end */
+
+    /* offer-area start */
+    .offer-text{
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+    /* offer-area end */
+  
+ }
+
+/*Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+   
+ }
+
+/*Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .cnav {
+        padding-right: 180px;
+    }
+   
+ }
